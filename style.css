@@ -1,0 +1,92 @@
+.topnav {
+text-align: center;
+font-size: 14px;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+text-decoration: none;
+}
+
+.button1 {
+    border: none;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    border-radius: 16px;
+    font-size: 12px;
+    width: 250px;
+    height: 20px;
+}
+
+.button2{
+    border: none;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-radius:16px;
+    font-size: 12px;
+    width:250px;
+    height:20px;
+    display:inline-block;
+}
+
+.footer{
+display: flex;
+Flex-direction: row;
+justify-content: space-between;
+background-color: #ffcba4;
+position: fixed;
+width: 100%;
+text-align: right;
+left: 0;
+bottom: 0;
+text-decoration: none;
+}
+
+p{
+    width: 50%;
+} 
+
+.dot1{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    flex: end;
+    background-color: rgba(207, 130, 213, 0.6);
+    position: absolute;
+    right:20px;
+    bottom: 325px;
+    
+}
+.dot2{
+    height: 125px;
+    width: 125px;
+    background-color: rgba(247, 193, 162, 0.7);
+    border-radius: 50%;
+    display:flex;
+    flex: end;
+    position:absolute;
+    right:25px;
+    bottom:225px;
+}
+.dot3 {
+    height: 150px;
+    width:150px;
+    background-color: rgba(247, 136, 167, 0.6);
+    border-radius: 50%;
+    display:flex;
+    flex: end;
+    position: absolute;
+    right: 75px;
+
+}
+@media screen and (min-width: 768px) {
+    .topnav a {
+        float: none;
+        flex: column;
+
+    }
+
+    }
